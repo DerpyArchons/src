@@ -5,7 +5,7 @@ import creativetab.CreativeTabArcanaItems;
 public class ItemSpiritShard extends ItemArcana {
 
 	public ItemSpiritShard() {
-		super("itemderpybook");
+		super("itemSpiritShard");
 		this.setCreativeTab(CreativeTabArcanaItems.CreativeTabArcanaItems);
 		
 	

@@ -16,6 +16,7 @@ public class ModItems {
 	public static final Item ItemMundusAnimorum = new ItemMundusAnimorum();
 	public static final Item ItemViaInfernae = new ItemViaInfernae();
 	public static final Item ItemTerminusUltimorum = new ItemTerminusUltimorum();
+	public static final Item ItemSpiritShard = new ItemSpiritShard();
 	
 public static void init()
 {
@@ -24,5 +25,6 @@ public static void init()
 	GameRegistry.registerItem(ItemMundusAnimorum, "ItemMundusAnimorum");
 	GameRegistry.registerItem(ItemViaInfernae, "ItemViaInfernae");
 	GameRegistry.registerItem(ItemTerminusUltimorum, "ItemTerminusUltimorum");
+	GameRegistry.registerItem(ItemSpiritShard, "IremSpiritShard");
 }
 }

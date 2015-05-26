@@ -1,0 +1,19 @@
+[
+{
+"modid": "arcanea",
+"name": "Arcanea",
+"description": "indev magic mod",
+"version": "1.7.10-0.1",
+"credits": "",
+"logoFile": "",
+"mcversion": "1.7.10",
+"url": "",
+"updateUrl": "",
+"authorList": [ "" ],
+"parent":"",
+"screenshots": [],
+"dependencies": [
+     "mod_MinecraftForge"
+]
+}
+]

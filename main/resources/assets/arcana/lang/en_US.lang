@@ -3,4 +3,5 @@ tile.BlockTestBlock.name=Diamond Sword Block
 item.arcana:itemPortaAstriae.name=Porta Astriae
 item.arcana:itemMundusAnimorum.name=Mundus Animorum
 item.arcana:itemViaInfernae.name=Via Infernae
-item.arcana:itemTerminusUltimorum=Terminus Ultimorum
+item.arcana:itemTerminusUltimorum.name=Terminus Ultimorum
+item.arcana:itemSpiritShard.name=Spirit Shard

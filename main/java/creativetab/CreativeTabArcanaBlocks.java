@@ -7,7 +7,7 @@ import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 
 public class CreativeTabArcanaBlocks {
-	public static final CreativeTabs CreativeTabArcanaItems = new CreativeTabs(Reference.MOD_ID)
+	public static final CreativeTabs CreativeTabArcanaBlocks = new CreativeTabs(Reference.MOD_ID)
 	   {
 	     @Override
      public Item getTabIconItem()

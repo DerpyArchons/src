@@ -1,7 +1,8 @@
 package com.firstarchon.arcana;
 
-import com.firstarchon.arcana.handller.ConfigurationHandler;
+import com.firstarchon.arcana.handler.ConfigurationHandler;
 import com.firstarchon.arcana.init.ModBlocks;
+import com.firstarchon.arcana.init.ModEventHandler;
 import com.firstarchon.arcana.init.ModItems;
 import com.firstarchon.arcana.proxy.IProxy;
 import com.firstarchon.arcana.referance.Reference;
@@ -29,6 +30,7 @@ public class Arcana {
 		FMLCommonHandler.instance().bus().register(new ConfigurationHandler());
 		ModItems.init();
 		ModBlocks.init();
+		ModEventHandler.init();
 	}
 
 	@Mod.EventHandler

@@ -1,4 +1,4 @@
-package com.firstarchon.arcana.handller;
+package com.firstarchon.arcana.handler;
 
 import java.io.File;
 

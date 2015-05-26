@@ -1,6 +1,6 @@
 package com.firstarchon.arcana.client.gui;
 
-import com.firstarchon.arcana.handller.ConfigurationHandler;
+import com.firstarchon.arcana.handler.ConfigurationHandler;
 import com.firstarchon.arcana.referance.Reference;
 
 import net.minecraft.client.gui.GuiScreen;

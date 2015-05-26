@@ -1,4 +1,4 @@
-package com.firstarchon.arcana.block;
+package block;
 
 import com.firstarchon.arcana.referance.Reference;
 

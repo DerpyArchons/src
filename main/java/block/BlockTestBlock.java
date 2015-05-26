@@ -1,4 +1,4 @@
-package com.firstarchon.arcana.block;
+package block;
 
 import net.minecraft.block.material.Material;
 

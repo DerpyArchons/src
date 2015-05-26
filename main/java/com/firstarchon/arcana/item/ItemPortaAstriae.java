@@ -1,6 +1,6 @@
 package com.firstarchon.arcana.item;
 
-import com.firstarchon.arcana.creativetab.CreativeTabArcanaItems;
+import creativetab.CreativeTabArcanaItems;
 
 public class ItemPortaAstriae extends ItemArcana {
 

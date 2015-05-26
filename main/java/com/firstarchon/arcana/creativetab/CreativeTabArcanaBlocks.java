@@ -1,5 +1,6 @@
 package com.firstarchon.arcana.creativetab;
 
+import com.firstarchon.arcana.init.ModBlocks;
 import com.firstarchon.arcana.init.ModItems;
 import com.firstarchon.arcana.referance.Reference;
 
@@ -12,7 +13,7 @@ public class CreativeTabArcanaBlocks {
 	     @Override
      public Item getTabIconItem()
 	      {
-	           return ModItems.ItemDerrpybook;
+	    	  return Item.getItemFromBlock(ModBlocks.BlockTestBlock);
 	     }
 
 	       @Override

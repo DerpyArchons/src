@@ -1,8 +1,9 @@
 package com.firstarchon.arcana.init;
 
+import com.firstarchon.arcana.block.BlockArcanea;
+import com.firstarchon.arcana.block.BlockTestBlock;
+
 import cpw.mods.fml.common.registry.GameRegistry;
-import block.BlockArcanea;
-import block.BlockTestBlock;
 
 public class ModBlocks {
 public static final BlockArcanea BlockTestBlock = new BlockTestBlock();

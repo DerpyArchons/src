@@ -6,8 +6,8 @@ import com.firstarchon.arcana.referance.Reference;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 
-public class CreativeTabArcana {
-	public static final CreativeTabs CreativeTabArcana = new CreativeTabs(Reference.MOD_ID)
+public class CreativeTabArcanaItems {
+	public static final CreativeTabs CreativeTabArcanaItems = new CreativeTabs(Reference.MOD_ID)
 	   {
 	     @Override
      public Item getTabIconItem()
@@ -18,7 +18,7 @@ public class CreativeTabArcana {
 	       @Override
 	       public String getTranslatedTabLabel()
         {
-	          return "Arcana";
+	          return "Arcana Items";
         }
 	   };
 	}

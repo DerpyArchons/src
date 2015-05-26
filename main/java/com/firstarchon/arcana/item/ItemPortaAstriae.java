@@ -1,12 +1,12 @@
 package com.firstarchon.arcana.item;
 
-import creativetab.CreativeTabArcana;
+import creativetab.CreativeTabArcanaItems;
 
 public class ItemPortaAstriae extends ItemArcana {
 
 	public ItemPortaAstriae() {
 		super("itemPortaAstriae");
-		this.setCreativeTab(CreativeTabArcana.CreativeTabArcana);
+		this.setCreativeTab(CreativeTabArcanaItems.CreativeTabArcanaItems);
 		
 	
 			

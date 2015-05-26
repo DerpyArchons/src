@@ -2,10 +2,10 @@ package com.firstarchon.arcana.item;
 
 import creativetab.CreativeTabArcanaItems;
 
-public class ItemTerminusUltimorum extends ItemArcana {
+public class ItemSpiritShard extends ItemArcana {
 
-	public ItemTerminusUltimorum() {
-		super("itemTerminusUltimorum");
+	public ItemSpiritShard() {
+		super("itemderpybook");
 		this.setCreativeTab(CreativeTabArcanaItems.CreativeTabArcanaItems);
 		
 	

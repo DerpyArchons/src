@@ -1,12 +1,12 @@
 package com.firstarchon.arcana.item;
 
-import creativetab.CreativeTabArcana;
+import creativetab.CreativeTabArcanaItems;
 
 public class ItemViaInfernae extends ItemArcana {
 
 	public ItemViaInfernae() {
 		super("itemViaInfernae");
-		this.setCreativeTab(CreativeTabArcana.CreativeTabArcana);
+		this.setCreativeTab(CreativeTabArcanaItems.CreativeTabArcanaItems);
 		
 	
 			

@@ -1,6 +1,6 @@
 package com.firstarchon.arcana.item;
 
-import creativetab.CreativeTabArcanaItems;
+import com.firstarchon.arcana.creativetab.CreativeTabArcanaItems;
 
 public class ItemTerminusUltimorum extends ItemArcana {
 

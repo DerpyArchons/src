@@ -1,4 +1,4 @@
-package creativetab;
+package com.firstarchon.arcana.creativetab;
 
 import com.firstarchon.arcana.init.ModItems;
 import com.firstarchon.arcana.referance.Reference;

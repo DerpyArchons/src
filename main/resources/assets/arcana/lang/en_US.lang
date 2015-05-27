@@ -1,9 +1,19 @@
 item.arcana:itemderpybook.name=one
+
 tile.arcana.BlockTestBlock.name=Diamond Sword Block
+
 tile.BlockSpiritShardOre.name=Spirit Shard Ore
+
 item.arcana:itemPortaAstriae.name=Porta Astriae
+
 item.arcana:itemMundusAnimorum.name=Mundus Animorum
+
 item.arcana:itemViaInfernae.name=Via Infernae
+
 item.arcana:itemTerminusUltimorum.name=Terminus Ultimorum
-item.arcana:itemSpiritShard.name=Spirit Shard 
+
+item.arcana:itemSpiritShard.name=Spirit Shard
+
 item.arcana:itemSpiritCore.name=Spirit Core 
+item.ItemRawBacon.name=Raw Bacon
+item.ItemCookedBacon.name=Cooked Bacon

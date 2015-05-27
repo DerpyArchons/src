@@ -1,5 +1,6 @@
 package com.firstarchon.arcana.block;
 
+import com.firstarchon.arcana.creativetab.CreativeTabArcanaBlocks;
 import com.firstarchon.arcana.referance.Reference;
 
 import net.minecraft.block.Block;
@@ -11,7 +12,7 @@ public class BlockArcana extends Block
 		  super(material);
 		setBlockName(Reference.MOD_ID + ":" + baseName);
 	    setBlockTextureName(Reference.MOD_ID + ":" + baseName);
-	  
+	    this.setCreativeTab(Reference.BLOCK_TAB);
 	   	}
 
 }

@@ -1,9 +1,15 @@
 package com.firstarchon.arcana;
 
+import net.minecraft.item.ItemStack;
+import net.minecraftforge.oredict.OreDictionary;
+
+import com.firstarchon.arcana.block.ore.*;
 import com.firstarchon.arcana.handler.ConfigurationHandler;
 import com.firstarchon.arcana.init.ModBlocks;
 import com.firstarchon.arcana.init.ModEventHandler;
 import com.firstarchon.arcana.init.ModItems;
+import com.firstarchon.arcana.init.Recipies;
+import com.firstarchon.arcana.init.SmeltingRecipies;
 import com.firstarchon.arcana.proxy.IProxy;
 import com.firstarchon.arcana.referance.Reference;
 
@@ -31,11 +37,14 @@ public class Arcana {
 		ModItems.init();
 		ModBlocks.init();
 		ModEventHandler.init();
+		
+	
 	}
 
 	@Mod.EventHandler
 	public void init(FMLInitializationEvent event) {
-		
+		Recipies.init();
+		SmeltingRecipies.init();
 	}
 	
 

@@ -12,7 +12,11 @@ public class CreativeTabArcanaItems {
 	     @Override
      public Item getTabIconItem()
 	      {
-	           return ModItems.ItemDerrpybook;
+	       
+	    	 return Reference.GetItemIcon();
+	    	 
+	    
+	    	 
 	     }
 
 	       @Override

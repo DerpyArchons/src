@@ -6,7 +6,7 @@ public class ItemSpiritShard extends ItemArcana {
 
 	public ItemSpiritShard() {
 		super("itemSpiritShard");
-		this.setCreativeTab(CreativeTabArcanaItems.CreativeTabArcanaItems);
+	
 		
 	
 			

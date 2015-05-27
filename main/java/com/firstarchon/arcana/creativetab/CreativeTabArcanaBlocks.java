@@ -13,7 +13,9 @@ public class CreativeTabArcanaBlocks {
 	     @Override
      public Item getTabIconItem()
 	      {
-	    	  return Item.getItemFromBlock(ModBlocks.BlockTestBlock);
+	    	
+	    	  //sets creative tab blocks
+	    	  return Reference.GetBlockIcon();
 	     }
 
 	       @Override

@@ -6,6 +6,7 @@ import net.minecraftforge.oredict.OreDictionary;
 import com.firstarchon.arcana.block.ore.*;
 import com.firstarchon.arcana.handler.ConfigurationHandler;
 import com.firstarchon.arcana.init.ModBlocks;
+import com.firstarchon.arcana.init.ModEntities;
 import com.firstarchon.arcana.init.ModEventHandler;
 import com.firstarchon.arcana.init.ModItems;
 import com.firstarchon.arcana.init.Recipies;
@@ -37,7 +38,7 @@ public class Arcana {
 		ModItems.init();
 		ModBlocks.init();
 		ModEventHandler.init();
-		
+		ModEntities.init();
 	
 	}
 
@@ -45,6 +46,7 @@ public class Arcana {
 	public void init(FMLInitializationEvent event) {
 		Recipies.init();
 		SmeltingRecipies.init();
+		
 	}
 	
 

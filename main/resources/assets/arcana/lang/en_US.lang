@@ -1,6 +1,6 @@
 item.arcana:itemderpybook.name=one
 
-tile.arcana.BlockTestBlock.name=Diamond Sword Block
+tile.BlockTestBlock.name=Diamond Sword Block
 
 tile.BlockSpiritShardOre.name=Spirit Shard Ore
 

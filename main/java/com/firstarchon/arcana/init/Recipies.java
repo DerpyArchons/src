@@ -18,6 +18,14 @@ public class Recipies {
 				'g', "blockGlass",
 				'd', new ItemStack(Items.diamond)));
 		
+		GameRegistry.addRecipe(new ItemStack (ModBlocks.BlockArcanaTE),
+				"sgs",
+				"grg",
+				"sgs",
+				's', new ItemStack(ModItems.ItemSpiritShard),
+				'g', Blocks.glass,
+				'r', Blocks.redstone_block);
+		
 	}
 
 }

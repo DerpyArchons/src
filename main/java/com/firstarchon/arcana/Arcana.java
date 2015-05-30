@@ -8,6 +8,7 @@ import com.firstarchon.arcana.handler.ConfigurationHandler;
 import com.firstarchon.arcana.init.ModBlocks;
 import com.firstarchon.arcana.init.ModEntities;
 import com.firstarchon.arcana.init.ModEventHandler;
+import com.firstarchon.arcana.init.ModFluids;
 import com.firstarchon.arcana.init.ModItems;
 import com.firstarchon.arcana.init.Recipies;
 import com.firstarchon.arcana.init.SmeltingRecipies;
@@ -39,6 +40,7 @@ public class Arcana {
 		ModBlocks.init();
 		ModEventHandler.init();
 		ModEntities.init();
+		ModFluids.init();
 	
 	}
 

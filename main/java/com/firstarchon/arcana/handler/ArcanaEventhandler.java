@@ -2,6 +2,7 @@ package com.firstarchon.arcana.handler;
 
 import java.util.Random;
 
+import com.firstarchon.arcana.block.ore.BlockProjectionGemOre;
 import com.firstarchon.arcana.init.ModBlocks;
 
 import net.minecraft.init.Blocks;
@@ -41,7 +42,8 @@ public class ArcanaEventhandler implements IWorldGenerator {
 	
 	private void generateNether (World world, Random random, int x ,int z)
 	{
-		
+		addOreSpawn(ModBlocks.BlockInfusionGemOre, 0, Blocks.netherrack, world, random, x, z, 16, 16, 5 + random.nextInt(5), 20, 20, 60);
+		addOreSpawn(ModBlocks.BlockProjectionGemOre, 0, Blocks.netherrack, world, random, x, z, 16, 16, 5 + random.nextInt(5), 20, 20, 60);
 	}
 
 /**

@@ -38,7 +38,8 @@ public class ModFluids
 		FluidRegistry.registerFluid(FusilisAnimus);
 
 		FusilisAnimus.setViscosity(500);
-
+		FusilisAnimus.setLuminosity(15);
+		FusilisAnimus.isGaseous();
 		FusilisAnimus.setUnlocalizedName("FusilisAnimus");
 
  

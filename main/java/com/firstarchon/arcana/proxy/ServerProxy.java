@@ -1,5 +1,5 @@
 package com.firstarchon.arcana.proxy;
 
-public class ServerProxy extends ComonProxy {
+public class ServerProxy extends CommonProxy {
 
 }

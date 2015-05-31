@@ -17,12 +17,14 @@ public class KeyInputHandler extends ArcanaKeybindings {
 
     public static final ArcanaKeybindings ArcanaKeybindings = new ArcanaKeybindings();
 	
-    @SubscribeEvent
+    /*
+     * @SubscribeEvent
+     
     public void onKeyInput(InputEvent.KeyInputEvent event) {
         if(KeyBinding.ping.isPressed())
             System.out.println("ping");
         if(KeyBinding.pong.isPressed())
-            System.out.println("pong");
+  System.out.println("pong");
+  */
     }
 
-}
